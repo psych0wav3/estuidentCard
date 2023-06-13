@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "366003825108",
+    "project_id": "anhanguera-99b3d",
+    "storage_bucket": "anhanguera-99b3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366003825108:android:abd25cd19b191d94de0e41",
+        "android_client_info": {
+          "package_name": "com.estudentcard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366003825108-ripagmr1naqv2ab448btt1u8tpgqe7jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIAT8-eNppk0sbVIshhiFXgFnJGFKUS8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366003825108-ripagmr1naqv2ab448btt1u8tpgqe7jq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "366003825108-44rauo964v26mvakn5pq3fi5ufdj5b9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anhanguera.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
