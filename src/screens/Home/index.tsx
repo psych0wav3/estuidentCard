@@ -17,6 +17,7 @@ export const Home: React.FC = () => {
   useEffect(() => {
     (async() => {
       setAllowList(await getAllowDocuments());
+      console.log(allowList)
     })()
   }, []);
 

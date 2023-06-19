@@ -9,7 +9,7 @@ export const getAllowDocuments = async (): Promise<AllowListType[]> => {
   const isActive = await remoteConfig().fetchAndActivate();
   if(isActive) {
     const value = remoteConfig().getValue('allow_list').asString();
-    return JSON.parse(value as unknown as string);
+    return JSON.parse(value);
   }
   return;       
 }
